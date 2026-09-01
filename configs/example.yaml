@@ -1,0 +1,4 @@
+seed: 42
+learning_rate: 0.001
+batch_size: 32
+project_name: ml-template
