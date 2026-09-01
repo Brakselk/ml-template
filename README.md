@@ -37,4 +37,7 @@ docker build -t ml-template .
 - `src/ml_template/seed.py` — deterministic seeding (random, numpy, torch)
 - `src/ml_template/config.py` — YAML + env-based settings (pydantic-settings)
 - `src/ml_template/repro.py` — captures the current git commit hash for run logging
+- `src/ml_template/tracking.py` — starts a W&B run tagged with the git commit hash
 - `configs/example.yaml` — example run config
+
+Run `wandb login` once per machine before using `tracking.init_run`.
