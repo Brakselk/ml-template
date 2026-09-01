@@ -1,6 +1,6 @@
 # ml-template
 
-![CI](https://github.com/USERNAME/ml-template/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/Brakselk/ml-template/actions/workflows/ci.yml/badge.svg)
 
 Base template for ML projects: dependency management, linting, type
 checking, tests, and a reproducible Docker build, wired into CI. Fork this
